@@ -40,8 +40,14 @@ toggle() {
 }
 
 # shellcheck disable=SC2317
-reload() {
+reload_css() {
 	notify-send.py Reloaded --hint boolean:deadd-notification-center:true string:type:reloadStyle
+}
+
+# shellcheck disable=SC2317
+restart() {
+	stop
+	start
 }
 
 # shellcheck disable=SC2317
@@ -147,7 +153,8 @@ declare -A commands=(
 	["resume"]="Resumes the popup notifications"
 	["cnotifications"]="Clears all the notifications"
 	["cpopups"]="Clears all the popped-up notifications"
-	["reload"]="Reloads css styles"
+	["reload_css"]="Reloads css styles"
+	["restart"]="Restarts the service"
 	["high"]="Sets the state of action button by its id to high"
 	["low"]="Sets the state of action button by its id to low"
 	["ping"]="Send a ping notification for testing"

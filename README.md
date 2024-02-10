@@ -12,7 +12,8 @@ A bash script to control **deadd linux notifications center daemon** using `noti
 - **resume**: Resumes the popup notifications
 - **cnotifications**: Clears all the notifications
 - **cpopups**: Clears all the popped-up notifications
-- **reload**: Reloads css styles
+- **reload_css**: Reloads css styles
+- **restart**: Restarts the service
 - **high**: Sets the state of action button by its id to high
 - **low**: Sets the state of action button by its id to low
 - **ping**: Send a ping notification for testing

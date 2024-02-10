@@ -1,6 +1,6 @@
 # deadd_control
 
-A bash script to control **deadd linux notifications center daemon** using `notify-send.py`
+A bash script to control [deadd linux notifications center daemon](https://github.com/phuhl/linux_notification_center) using `notify-send.py`
 
 ## Commands
 
